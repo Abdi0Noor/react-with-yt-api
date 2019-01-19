@@ -1,0 +1,95 @@
+* {
+    margin: 10;
+    padding: 1px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .5% ;
+    line-height:1.7;
+    color: rgb(192, 192, 192);
+    background-color: #5f47c9;
+    
+}
+
+.container {
+    background-color: black;
+    border-radius: 40px;
+    background-image: linear-gradient(to left bottom, 
+    #3cff00bd,
+    #5f47c9),
+    url(https://cdn.hipwallpaper.com/i/53/87/hmIAad.jpg);
+    padding-bottom: 20px;
+}
+
+.header {
+    position: relative;
+    height: 24vh;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left bottom,
+        #3cff00bd,
+        #5f47c9) , 
+        url(../src/img/brothers.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px;
+}
+
+.logo-box {
+    position: absolute;
+    left: 40%;
+}
+
+.logo {
+    position: center;
+    max-height: 250px;
+}
+
+
+
+.search-bar {
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+   
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+}
+
+
+.search-bar input {
+    width:90%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    text-indent: 10px;
+}
+.video-detail {
+    padding-top: 10px;
+}
+.video-detail:hover {
+    background-color: #c94747;
+    color: white;
+}
+.video-detail .details {
+    margin-top: 10px;
+    padding: 2px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: black;
+}
+
+.list-group-item {
+    cursor: pointer;
+    margin-bottom: 4px;
+    
+}
+
+.list-group-item:hover {
+    background-color: #c94747;
+    color: white;
+}
